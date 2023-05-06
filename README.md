@@ -24,8 +24,8 @@ I will create the spotify clone using react for fron end and node.js for back en
   "
             
 ### 1.2 SETTING BACK NODE.JS
->within the main folder create a folder named server and enter the folder.
-    >>CMD: 
+  within the main folder create a folder named server and enter the folder.
+    CMD: 
       "
       cd server
       "
