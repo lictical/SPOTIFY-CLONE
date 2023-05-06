@@ -13,18 +13,17 @@ I will create the spotify clone using react for fron end and node.js for back en
       "
    
   Proceed to create the vite app with the following BASH COMMAND:
-    GIT BASH: 
+    > GIT BASH: 
       "
       npm create vite@latest front-end -- --template react
       "
     
   Once it is done enter the following commands:
-    GIT BASH: 
+    > GIT BASH: 
       "
       cd front-end
       npm install
-  
-  "
+      "
             
 ### 1.2 SETTING BACK NODE.JS
   > Within the main folder create a folder named server and enter the folder.
