@@ -3,6 +3,7 @@
 I will create the spotify clone using react for fron end and node.js for back end. for this we will use VITE framework with a react template.
 
 1. Setting the environment.
+1.1 SETTING FRONT END REACT
   First open GIT BASH and enter to you projects folder.
   now create a folder for your project with CMD code:
     
@@ -19,5 +20,30 @@ I will create the spotify clone using react for fron end and node.js for back en
       "
       cd front-end
       npm install
-      "
+  
+  "
             
+1.2 SETTING BACK NODE.JS
+  within the main folder create a folder named server and enter the folder.
+    CMD: 
+      "
+      cd server
+      "
+  paste the following command and install the required libraries express, nodemon, dotenv:
+    CMD:
+      "
+      npm init
+      npm install express
+      npm i -D nodemon
+      npm i dotenv
+      "
+   Create the .env and .gitignore files 
+   In the .gitignore file write down the following:
+    .gitignore: 
+       "
+       /node_modules
+       .env
+       "
+    Create the server.js file.
+    
+  
