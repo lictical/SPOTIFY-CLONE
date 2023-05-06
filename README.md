@@ -35,6 +35,7 @@ I will create the spotify clone using react for fron end and node.js for back en
       cd server
       "
   Paste the following command and install the required libraries express, nodemon, dotenv:
+  
     CMD:
       "
       npm init
@@ -44,6 +45,7 @@ I will create the spotify clone using react for fron end and node.js for back en
       "
    Create the .env and .gitignore files 
    In the .gitignore file write down the following:
+   
     .gitignore: 
        "
        /node_modules
