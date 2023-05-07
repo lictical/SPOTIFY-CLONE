@@ -53,5 +53,15 @@ I will create the spotify clone using react for fron end and node.js for back en
        "
    Create the server.js file.
    
+   
+### Setting the Spotify api access
+  Craete a free acount in spotify to do so go to: 
     
+    https://developer.spotify.com/dashboard
+  Create an app
+  
+  The app will ask you to give it a name, a description and a redirect URL. if you are in development add:
+    
+    http://localhost:YOUR-PORT/callback
+  
   
