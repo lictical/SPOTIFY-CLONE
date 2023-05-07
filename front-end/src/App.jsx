@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Card from '../components/card/Card'
+import Display from '../components/display/Display'
+import Search_bar from '../components/search_bar/Search_bar'
 import './App.css'
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
 
   return (
     <>
-      
+      <Search_bar/>
+      <Display/>
     </>
   )
 }

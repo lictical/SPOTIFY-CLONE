@@ -1,0 +1,36 @@
+#search_bar {
+    margin: 0rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+#search_bar form {
+    
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap:0.1rem;
+    
+}
+
+#search_bar input {
+    
+    flex: 3;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 0.5rem;
+    height: fit-content;
+}
+
+#search_bar button {
+    padding: 0.5rem;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    flex: 1;
+
+
+}
