@@ -62,6 +62,7 @@ const Display = () => {
 
   },[] );
 
+
 // ============== 4. DEBUGGING FUNCTIONS =================================================
   const cardHandler = ()=> {
     albums.map((album, index)=>{
@@ -75,13 +76,12 @@ const Display = () => {
 // ============== 5. HTML CODE ===========================================================
   return (
     <section id='display'>
-      {/* <button onClick={cardHandler}>bugger</button> */}
-      {albums.map((album, index)=>{
-      return (<Card title="Album" description={album.name} url={album.images[0].url}/>);
-    }
-     
-      )
-      }
+      
+      {albums.length > 0 ? (
+      albums.map((album, index)=>{return (
+        <Card id={index} title="Album" description={album.name} url={album.images[0].url}/>);})
+      ):(<p>SEARCH SOMETHING</p>)}
+      
       
     </section>
   )

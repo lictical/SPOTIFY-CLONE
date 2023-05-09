@@ -81,7 +81,7 @@ const Search_bar = () => {
         <form action="" onSubmit={handleSubmit}>
             <input type="text" placeholder='search' onKeyDown={handleKeyDown} onChange={handleChange}/>
             <button onClick={search}>search</button> 
-            <button onClick={handleAlbums}>Log Albums</button>
+            
         </form>
         
 
